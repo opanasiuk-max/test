@@ -1,0 +1,96 @@
+#wrap {
+	width: 100%;
+	position:static;
+	height: 600px;
+
+}
+#rssContent {
+	width: 75%;
+	height:95%;
+	float: left;
+<!--	background-color: #32FF00;-->
+	white-space: nowrap;
+	text-overflow: clip;
+	overflow-x: auto;
+    border-radius: 15px;
+	
+}
+#side {
+	width: 25%;
+	height:95%;
+
+	float: right;
+	background-color: #05FFAD;
+	
+}
+#header {
+	width: 100%;
+	height:100px;
+	border-radius: 25px;
+    text-align: center;
+	background-color: #005599;
+	
+}
+#footer {
+	width: 100%;
+	height:75px;
+	clear:both;
+	background-color: #995500;
+    border-radius: 10px;
+    text-align: center;
+	
+}
+#selArticl {
+	max-width: 95%;
+	white-space: nowrap;
+	text-overflow: clip;
+	overflow-x: scroll ;
+}
+#selArticle {
+    max-width: 95%;
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow-x: scroll ;
+}
+#selChan {
+	width: 95%;
+	white-space: nowrap;
+	text-overflow: clip;
+}
+#rssOutput{
+	height:50%;
+	min-height: 150px;
+	clear:both;
+	background-color: #995555;
+	white-space: nowrap;
+	text-overflow: clip;
+	overflow-x: scroll ;
+}
+
+
+
+.articles1{
+	background-color: #665544;
+	border: double;
+	border-color: #9f7b93;
+	border-radius: 15px;
+}
+
+
+
+
+.articles1 A:link{
+    text-decoration-color: red;
+
+
+}
+.articles2{
+    background-color: #445566;
+    border: double;
+    border-color: #1a1a1a;
+    border-radius: 15px;
+}
+
+A:hover{
+    text-decoration: double;
+}

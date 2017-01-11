@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListOfRssFeedSources>
+<!-- 
+=============================================================
+Description:
+************
+This XML file is used as an input file for the custom 
+RSS feed aggregator. This is where you will specify
+details about the RSS feed providers, from whom you 
+would like to obtain their latest RSS feeds.
+You can customize this file with your feed sources.
+
+For each new RSS feed provider, you will have to enter
+the following child elements enclosed within the
+<RssFeedSourceInfo>...</RssFeedSourceInfo> element pair.
+1) rssFeedProviderName - Name of the provider
+2) rssFeedProviderUrl  - URL for the RSS site
+3) maximumRssItemsToBeReturned - Maximum number of feed items
+   that you would like to receive from this provider. 
+
+Author:
+*******
+Senthil Nathan (sen@us.ibm.com)
+   
+License:
+********
+This file (from IBM developerWorks) is made available free of 
+charge with the rights to use, copy, modify, merge, publish 
+and distribute. This Software shall be used for Good, not Evil.
+
+Created on:
+***********
+Jan/01/2008
+
+Last modified:
+**************
+Jan/02/2008
+=============================================================
+-->
+
+	<!-- This is the data set for RSS Feed Provider 1 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>Barron's: Markets</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://online.barrons.com/xml/rss/3_7517.xml</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>5</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 2 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>NPR: Business News</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://www.npr.org/rss/rss.php?id=1006</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>6</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 3 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>BBC: Business News</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/business/rss.xml</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>8</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 4 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>CNN: Latest Financial News</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://rss.cnn.com/rss/money_latest.rss</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>4</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 5 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>NY Times: Business</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://www.nytimes.com/services/xml/rss/nyt/Business.xml</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>40</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 6 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>The Financial Times Business - USA Markets</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://www.ft.com/rss/markets/us</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>10</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+  			  	
+	<!-- This is the data set for RSS Feed Provider 7 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>Wall Street Journal: US Business</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://feeds.wsjonline.com/wsj/xml/rss/3_7014.xml</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>6</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 8 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>Washington Post: Business</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://www.washingtonpost.com/wp-dyn/rss/business/index.xml</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>5</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 9 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>Kiplinger: Business</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://kiplinger.com/rss/s.php/k472a025fb81f7/business.rss</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>6</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+		
+	<!-- This is the data set for RSS Feed Provider 10 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>The Economist: Business</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://www.economist.com/rss/business_rss.xml</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>7</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 11 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>IB Times: Markets</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://feeds.feedburner.com/ibtimes/markets</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>10</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 12 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>Yahoo: US Market News</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://finance.yahoo.com/rss/usmarkets</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>12</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 13 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>MarketWatch: Real-time Headlines</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://feeds.marketwatch.com/marketwatch/realtimeheadlines?format=xml</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>20</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 14 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>Reuters: Business News</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://feeds.reuters.com/reuters/businessNews?format=xml</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>18</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 15 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>United Press International: Business</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://www.upi.com/rss/NewsTrack/Business</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>150</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 16 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>UBS: United States Highlights</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://rss.ibb.ubs.com/rss/rss-unitedstates.xml</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>12</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+
+	<!-- This is the data set for RSS Feed Provider 17 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>MSN Money Central: Market Commentary</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://articles.moneycentral.msn.com/Feeds/RSS/jubakrss.aspx</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>4</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+
+	<!-- This is the data set for RSS Feed Provider 18 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>BusinessWeek: Top News</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://rss.businessweek.com/bw_rss/bwdaily</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>25</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+
+	<!-- This is the data set for RSS Feed Provider 19 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>Smart Money: Headlines</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://feeds.smartmoney.com/smartmoney/headlines</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>8</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 20 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>Chicago Tribune: Business</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://feeds.chicagotribune.com/chicagotribune/business</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>5</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 21 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>Associated Press: Top Business News</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://hosted.ap.org/lineups/BUSINESSHEADS-rss_2.0.xml?SITE=MAHYC&amp;SECTION=HOME</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>17</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+	<!-- This is the data set for RSS Feed Provider 22 -->
+	<!-- THIS ENTRY IS DIFFERENT FROM OTHERS. BECAUSE, IT USES THE RDF FORMAT, WHICH IS BASED ON RSS 1.0 -->
+	<!-- It is included here to demonstrate the fact that our RSS Aggregator Supports several formats. -->
+	<!-- Refer to the PHP source code for comments about supporting RSS versions 0.91, 0.92, 1.0 and 2.0 -->
+	<RssFeedSourceInfo>
+            <rssFeedProviderName>Network World: IBM News</rssFeedProviderName>
+     	    <rssFeedProviderUrl>http://www.networkworld.com/rss/ibm.xml</rssFeedProviderUrl>
+    	    <maximumRssItemsToBeReturned>15</maximumRssItemsToBeReturned>
+ 	</RssFeedSourceInfo>
+
+</ListOfRssFeedSources>

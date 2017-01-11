@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channelList>
+        <title>Channels List</title>
+        <language>en-us</language>
+        <pubDate></pubDate>
+        <lastBuildDate></lastBuildDate>
+
+        <channel>
+            <title>All</title>
+            <link>http://news.liga.net/all/rss.xml </link>
+         </channel>
+         <channel>
+            <title>NEWS</title>
+            <link>http://news.liga.net/news/rss.xml </link>
+        </channel>
+        <channel>
+            <title>Articles</title>
+            <link>http://news.liga.net/articles/rss.xml </link>
+        </channel>
+        <channel>
+            <title>SMI</title>
+            <link>http://news.liga.net/smi/rss.xml </link>
+        </channel>
+
+        <channel>
+            <title>Politics</title>
+            <link>http://news.liga.net/politics/rss.xml </link>
+        </channel>
+
+        <channel>
+            <title>Sport</title>
+            <link>http://news.liga.net/sport/rss.xml </link>
+        </channel>
+
+        <channel>
+            <title>Capital</title>
+            <link>http://news.liga.net/capital/rss.xml </link>
+        </channel>
+
+        <channel>
+            <title>culture</title>
+            <link>http://news.liga.net/culture/rss.xml </link>
+        </channel>
+        <channel>
+            <title>Society</title>
+            <link>http://news.liga.net/society/rss.xml </link>
+        </channel>
+        <channel>
+            <title>PHOTO</title>
+            <link>http://news.liga.net/photo/rss.xml  </link>
+        </channel>
+        <channel>
+            <title>VIDEO</title>
+            <link>http://news.liga.net/video/rss.xml  </link>
+        </channel>
+
+
+
+    </channelList>
+</rss>
